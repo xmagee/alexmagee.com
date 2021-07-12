@@ -13,7 +13,7 @@ var employment_experience = require('./data/employment_experience.json'),
 
 export default function App() {
 	return (
-		<>
+		<div id='preact-root'>
 			<header className='site_header'>
 				<h1>Alex Magee</h1> 
 				<p>Software Developer</p>
@@ -117,6 +117,6 @@ export default function App() {
 					</p>
 				</>
 			</>
-		</>
+		</div>
 	)
 }

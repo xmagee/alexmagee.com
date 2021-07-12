@@ -105,3 +105,4 @@ dist
 
 # static site from build command dir
 build/
+size-plugin.json

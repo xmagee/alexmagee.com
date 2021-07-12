@@ -25,7 +25,3 @@
 ul { 
 	list-style-type: '⇀ ';
 }
-
-ul li p { 
-	color: rgba(255, 255, 255, .7);
-}
