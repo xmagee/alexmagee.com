@@ -19,22 +19,5 @@
         "Storage": ["(1) 512GB NVMe SSD"], 
         "Monitor(s)": ["(built-in) 14\" 4K Touch Display, w/ Wacom Pen"], 
         "OS(s)": ["Fedora34 + Gnome40 (Main)"]
-    }, 
-    {
-        "name": "Old Laptop | Lenovo Thinkpad T420", 
-        "CPU": "Intel i5-2520M", 
-        "RAM": "8GB DDR3", 
-        "Storage": ["(2) Kingston 120GB SATA SSD"], 
-        "Monitor(s)": ["(built-in) 14\" 1366x768"], 
-        "OS(s)": ["Arco + XFCE (Main)"]
-    },
-    {
-        "name": "WFH PC | Custom", 
-        "CPU": "AMD Ryzen 7 1700 @ 3.9Ghz", 
-        "GPU": "AMD/ATI 7750HD", 
-        "RAM": "Corsair 16GB DDR4 @ 3200Mhz", 
-        "Motherboard": "Gigabyte B450M DS3H", 
-        "Storage": ["(1) 256GB Crucial m.2 SATA SSD"], 
-        "OS(s)": ["Debian 10 + XFCE (Main)"]
     }
 ]

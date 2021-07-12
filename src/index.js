@@ -1,15 +1,10 @@
 import './style'
 import '@exampledev/new.css'
+import { site_info_stuff_used, public_profiles } from './data/links'
 
 var employment_experience = require('./data/employment_experience.json'),
 	formal_education = require('./data/formal_education.json'), 
-	current_tech_specs = require('./data/current_tech_specs.json'), 
-	site_info_stuff_used = [
-		['PreactJS', 'https://github.com/preactjs/preact'], 
-		['new.css', 'https://github.com/xz/new.css'], 
-		['VSCodium', 'https://github.com/VSCodium/vscodium'],
-		['Github', 'https://github.com/xmagee']
-	]
+	current_tech_specs = require('./data/current_tech_specs.json')
 
 export default function App() {
 	return (
@@ -21,18 +16,22 @@ export default function App() {
 			
 			<>
 				<p>
-					Hi! 👋 I am currently self-employed as a contract-based software developer, open for employment (salary preferred). My 
-					most used languages in production environments are Javascript (ReactJS, NodeJS), C#/VB.NET, Sql (MSSQL, MySql, 
-					Sqlite), and en_US.  
+					Hi! 👋 I am currently self-employed as a contract-based software developer, open for employment. My 
+					most used languages in production environments are Javascript (ReactJS, NodeJS), C#/VB.NET/ASP.NET, Sql (MSSQL, MySql, 
+					Sqlite), and en_US. <br />
+					<strong>My official public profiles:</strong> &nbsp;
+					{public_profiles.map((i, index) => ( 
+						<span key={index}><a href={i[1]} target='_blank'>{i[0]}</a> {index !==  public_profiles.length - 1 ? ' | ' : ''}</span> 
+					))}
 				</p>
 
 				<>
-					<h3>Employment Experience 💼</h3>
+					<h2>Employment Experience 💼</h2>
 					<p>
 						<ul>
 							{employment_experience.map((job, index) => (
 								<li key={index}>
-									<h4>{job.title}</h4>
+									<h3>{job.title}</h3>
 									<strong>{job.employer} [ 📅 {job.start_date} - {job.end_date} ]</strong>
 									<p>{job.descr}</p>
 								</li>
@@ -42,12 +41,12 @@ export default function App() {
 				</>
 
 				<>
-					<h3>Formal Education 🏫</h3>
+					<h2>Formal Education 🏫</h2>
 					<p>
 						<ul>
 							{formal_education.map((edu, index) => (
 								<li key={index}>
-									<h4>{edu.name}</h4>
+									<h3>{edu.name}</h3>
 									<strong>[ 📅 {edu.start_date} - {edu.end_date} ]</strong>
 									<p>{edu.descr}</p>
 								</li>
@@ -57,12 +56,12 @@ export default function App() {
 				</>
 				
 				<>
-					<h3>My Current Tech Specs 💻</h3>
+					<h2>My Current Tech Specs 💻</h2>
 					<p>
 						<ul>
 							{current_tech_specs.map((pc, index) => (
 								<li key={index}>
-									<h4>{pc.name}</h4>
+									<h3>{pc.name}</h3>
 									<details>
 										<table>
 											<tbody>
@@ -104,7 +103,7 @@ export default function App() {
 				<hr />
 
 				<>
-					<h4>Site Info 🐱</h4> 
+					<h2>Site Info 🐱</h2> 
 					<strong>Last publish: July 12th, 2021 | <a href='https://github.com/xmagee/alexmagee.com' target='_blank'>Source</a></strong>
 					<br /><br />
 					<span>Built with:</span>
