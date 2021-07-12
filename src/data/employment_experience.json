@@ -1,0 +1,30 @@
+[
+	{
+		"title": "Self-employed", 
+		"employer": "Contract-based",
+		"start_date": "May 2020", 
+		"end_date": "Present",  
+		"descr": "Full-stack web application development, testing, and maintenance using Sql Server, C# / .NET 5 (WebAPI), and ReactJS. Wordpress administration and maintenance. VB.NET desktop application maintenance. MS Access database migration (from MS Access to Sql Server). Git / Gitlab project management."
+	}, 
+	{
+		"title": "Software Developer Intern", 
+		"employer": "American Refining Group",
+		"start_date": "May 2019", 
+		"end_date": "April 2020", 
+		"descr": "Completed necessary changes to ARG's purchasing management system (VB.NET, ASP.NET). Made changes to ARG's Wordpress-based contractor safety exam website. Created a simple but effective web app to track the I.T. department's assets using Sql Server, C# / .NET Core 3.1 (WebAPI), and ReactJS. "
+	}, 
+	{
+		"title": "Quality Assurance Intern", 
+		"employer": "Graham Packaging",
+		"start_date": "August 2018", 
+		"end_date": "April 2019", 
+		"descr": "Completed quality testing and logged testing data using in-house software."
+	}, 
+	{
+		"title": "Shift Lead", 
+		"employer": "Crosby's Stores",
+		"start_date": "August 2017", 
+		"end_date": "August 2018", 
+		"descr": "Managed store as a single employee during assigned shift, assisted customers with shopping requirements. Balanced drawer and kept track of store inventory. "
+	}
+]

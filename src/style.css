@@ -1,0 +1,31 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.site_header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */ 
+	background: linear-gradient(-45deg, #21295C, #065A82, #1C7293, #9EB3C2); 
+	background-size: 350% 350%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul { 
+	list-style-type: '⇀ ';
+}
+
+ul li p { 
+	color: rgba(255, 255, 255, .7);
+}

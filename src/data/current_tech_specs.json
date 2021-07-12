@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Main PC | Custom", 
+        "CPU": "AMD Ryzen 5 5600x @ 4.6Ghz", 
+        "GPU": "MSI/AMD RX 580 4GB", 
+        "RAM": "Corsair 32GB DDR4 @ 3200Mhz",
+        "Motherboard": "ASUS TUF Gaming B450-PLUS II", 
+        "Storage": ["(1) Crucial P5 500GB 3D NAND NVMe SSD (main OS drive)", "(2) Crucial BX500 1TB 3D NAND SATA SSD (storage, other OS's)", "(2) Seagate IronWolf 10TB HDD (ZFS)"], 
+        "Monitor(s)": ["AOC U2790VQ 27\" 4K Frameless IPS"], 
+        "Keyboard": "Durgod Taurus K320 TKL | YMDK Carbon Keycaps w/ o-rings", 
+        "Mouse": "Logitech MX Master Wireless", 
+        "OS(s)": ["Fedora34 + Gnome40 (Main)", "Arch + dwm, Zen", "Windows 10 21H1"]
+    }, 
+    {
+        "name": "Main Laptop | Lenovo X1 Yoga, 5th Gen", 
+        "CPU": "Intel i5-10301U", 
+        "GPU": "Intel UHD", 
+        "RAM": "16GB DDR4", 
+        "Storage": ["(1) 512GB NVMe SSD"], 
+        "Monitor(s)": ["(built-in) 14\" 4K Touch Display, w/ Wacom Pen"], 
+        "OS(s)": ["Fedora34 + Gnome40 (Main)"]
+    }, 
+    {
+        "name": "Old Laptop | Lenovo Thinkpad T420", 
+        "CPU": "Intel i5-2520M", 
+        "RAM": "8GB DDR3", 
+        "Storage": ["(2) Kingston 120GB SATA SSD"], 
+        "Monitor(s)": ["(built-in) 14\" 1366x768"], 
+        "OS(s)": ["Arco + XFCE (Main)"]
+    },
+    {
+        "name": "WFH PC | Custom", 
+        "CPU": "AMD Ryzen 7 1700 @ 3.9Ghz", 
+        "GPU": "AMD/ATI 7750HD", 
+        "RAM": "Corsair 16GB DDR4 @ 3200Mhz", 
+        "Motherboard": "Gigabyte B450M DS3H", 
+        "Storage": ["(1) 256GB Crucial m.2 SATA SSD"], 
+        "OS(s)": ["Debian 10 + XFCE (Main)"]
+    }
+]
