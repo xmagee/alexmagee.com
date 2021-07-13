@@ -1,7 +1,8 @@
 export const public_profiles = [
     ['Github', 'https://github.com/xmagee'], 
     ['Quora', 'https://www.quora.com/profile/Alex-Magee-33'], 
-    ['Stack Overflow', 'https://stackoverflow.com/users/16427991/alex-magee?tab=profile']
+    ['Stack Overflow', 'https://stackoverflow.com/users/16427991/alex-magee?tab=profile'], 
+    ['Twitter', 'https://twitter.com/AlexMag95817732']
 ]
 
 export const site_info_stuff_used = [
