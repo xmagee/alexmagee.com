@@ -1,4 +1,4 @@
-# alexmagee.com
+# [alexmagee.com](https://alexmagee.com)
 My personal website / resume page
 
 ## run this
