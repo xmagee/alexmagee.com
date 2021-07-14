@@ -1,6 +1,6 @@
 import './style'
 import '@exampledev/new.css'
-import { site_info_stuff_used, public_profiles } from './data/links'
+import { site_info_stuff_used, nav_links } from './data/links'
 
 var employment_experience = require('./data/employment_experience.json'),
 	formal_education = require('./data/formal_education.json'), 
@@ -15,16 +15,16 @@ export default function App() {
 			</header>
 			
 			<>
+				<nav className='links_container'>
+					{nav_links.map((i, index) => ( 
+						<span key={index}><a href={i[1]} target='_blank'>{i[0]}</a> {index !==  nav_links.length - 1 ? ' | ' : ''}</span> 
+					))}
+				</nav>
+
 				<p>
 					Hi! 👋 I am currently self-employed as a contract-based software developer, open for employment. My 
 					most used languages in production environments are Javascript (ReactJS, NodeJS), C#/VB.NET/ASP.NET, Sql (MSSQL, MySql, 
 					Sqlite), and en_US.
-					<div className='public_profiles_container'>
-						<strong>Profiles/contact info:</strong> &nbsp;
-						{public_profiles.map((i, index) => ( 
-							<span key={index}><a href={i[1]} target='_blank'>{i[0]}</a> {index !==  public_profiles.length - 1 ? ' | ' : ''}</span> 
-						))}
-					</div>
 				</p>
 
 				<>
@@ -106,7 +106,7 @@ export default function App() {
 
 				<>
 					<h2>Site Info 🐱</h2> 
-					<strong>Last publish: July 12th, 2021 | <a href='https://github.com/xmagee/alexmagee.com' target='_blank'>Source</a></strong>
+					<strong>Last publish: July 13th, 2021 | <a href='https://github.com/xmagee/alexmagee.com' target='_blank'>Source</a></strong>
 					<br /><br />
 					<span>Built with:</span>
 					<p>

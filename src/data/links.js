@@ -1,4 +1,4 @@
-export const public_profiles = [
+export const nav_links = [
     ['Github', 'https://github.com/xmagee'], 
     ['Quora', 'https://www.quora.com/profile/Alex-Magee-33'], 
     ['Stack Overflow', 'https://stackoverflow.com/users/16427991/alex-magee?tab=profile'],
