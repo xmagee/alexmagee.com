@@ -18,11 +18,13 @@ export default function App() {
 				<p>
 					Hi! 👋 I am currently self-employed as a contract-based software developer, open for employment. My 
 					most used languages in production environments are Javascript (ReactJS, NodeJS), C#/VB.NET/ASP.NET, Sql (MSSQL, MySql, 
-					Sqlite), and en_US. <br />
-					<strong>My official public profiles:</strong> &nbsp;
-					{public_profiles.map((i, index) => ( 
-						<span key={index}><a href={i[1]} target='_blank'>{i[0]}</a> {index !==  public_profiles.length - 1 ? ' | ' : ''}</span> 
-					))}
+					Sqlite), and en_US.
+					<div className='public_profiles_container'>
+						<strong>Profiles/contact info:</strong> &nbsp;
+						{public_profiles.map((i, index) => ( 
+							<span key={index}><a href={i[1]} target='_blank'>{i[0]}</a> {index !==  public_profiles.length - 1 ? ' | ' : ''}</span> 
+						))}
+					</div>
 				</p>
 
 				<>
