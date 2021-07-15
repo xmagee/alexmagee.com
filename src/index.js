@@ -1,12 +1,17 @@
+import { useEffect } from 'react'
 import './style'
 import '@exampledev/new.css'
-import { site_info_stuff_used, nav_links } from './data/links'
+import { site_info_stuff_used, nav_links, ee1 } from './data/links'
 
 var employment_experience = require('./data/employment_experience.json'),
 	formal_education = require('./data/formal_education.json'), 
 	current_tech_specs = require('./data/current_tech_specs.json')
 
 export default function App() {
+	useEffect(() => {
+		console.log(ee1)
+	})
+
 	return (
 		<div id='preact-root'>
 			<header className='site_header'>

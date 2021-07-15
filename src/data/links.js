@@ -12,3 +12,5 @@ export const site_info_stuff_used = [
     ['VSCodium', 'https://github.com/VSCodium/vscodium'],
     ['Github', 'https://github.com/xmagee']
 ]
+
+export const ee1 = 'bm8sIHlvdSBjYW50IHNlZSB3aGF0cyBpbiBoZXJlIDpeKSAtPiBZWEpsSUhsdmRTQnpkWEpsUHlCcElHUnZiblFnZEdocGJtc2dlVzkxSUhkaGJuUWdkRzhnYzJWbElIUm9hWE11TGk0Z0xUNGdaVmM1TVVsSFJubGFWelV3U1Vka2RtRlhOVzVKU0ZKMlNVZGtjR1J0Vldka1dFRm5XVmhLYkVsSWJIWmtVMEUyVEhsQmRGQnBRbWxOYms1dVYyMHhjMlJXY0ZSa01tUm9VakZhTlZkc1RrTmpSMUpFVVc1Q2FtVnRPVzVaVldoVFRVZE9TVlJVV2sxbFZHdDZXa1JPYW1SWFZsaFBWRVpyVTBaYWNGZHNUVEZoYlVsNVRVaGFhMDFyV1hkWFZFcHVUREpTY1UxWGRGWlhSMDEzV2tod2MxZEdiM2hoUjNCV1ZWYzRPVU5uUFQwSwo='
