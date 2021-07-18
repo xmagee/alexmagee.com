@@ -101,10 +101,10 @@ export default function App() {
 			<div>
 				<span>Built with:</span>
 				{site_info_stuff_used.map((i, index) => (
-				<span key={index}>
-					<a href={i[1]} target='_blank'>{i[0]}</a> {index !==  site_info_stuff_used.length - 1 ? ' | ' : ''}
-				</span>
-			))}
+					<span key={index}>
+						<a href={i[1]} target='_blank'>{i[0]}</a> {index !==  site_info_stuff_used.length - 1 ? ' | ' : ''}
+					</span>
+				))}
 			</div>
 		</div>
 	)
