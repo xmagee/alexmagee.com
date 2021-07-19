@@ -55,6 +55,10 @@ header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */
 	}
 }
 
+h1, h2, h3 {
+	border-bottom: 0;
+}
+
 nav {
 	margin: -15px 0px 15px 0px;
 	width: 100%;
