@@ -1,10 +1,6 @@
 import { useEffect } from 'react'
 import './style'
-
-import { 
-	ee1, bio
-} from './data'
-
+import { ee1, bio } from './data'
 import { Employment, Education, Specs, SiteInfo, Navbar } from './components'
 
 export default function App() {
@@ -14,7 +10,7 @@ export default function App() {
 	})
 
 	return (
-		<div id='preact-root'>
+		<main id='preact-root'>
 			<header className='site_header'>
 				<h1>Alex Magee</h1> 
 				<p>Software Developer</p>
@@ -22,9 +18,7 @@ export default function App() {
 			
 			<Navbar />
 
-			<>
-				<p>{bio}</p>
-			</>
+			<p>{bio}</p>
 			
 			<Employment />
 			
@@ -35,7 +29,6 @@ export default function App() {
 			<hr />
 			
 			<SiteInfo />
-			
-		</div>
+		</main>
 	)
 }
