@@ -1,11 +1,13 @@
 import { useEffect } from 'react'
 import './style'
-import { site_info_stuff_used, nav_links, ee1 } from './data/links'
-import { bio } from './data/site_bio'
 
-var employment_experience = require('./data/employment_experience.json'),
-	formal_education = require('./data/formal_education.json'), 
-	current_tech_specs = require('./data/current_tech_specs.json')
+import { 
+    site_info_stuff_used, 
+    nav_links, ee1, bio, 
+    employment_experience, 
+    formal_education, 
+    current_tech_specs
+} from './data'
 
 export default function App() {
 	useEffect(() => {
