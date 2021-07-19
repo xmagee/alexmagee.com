@@ -4,6 +4,7 @@ import './style'
 import { 
     site_info_stuff_used, 
     nav_links, ee1, bio, 
+	site_source_repo_link,
     employment_experience, 
     formal_education, 
     current_tech_specs
@@ -97,7 +98,7 @@ export default function App() {
 			<hr />
 			
 			<h2>Site Info 🐱</h2> 
-			<strong>Last publish: July 13th, 2021 | <a href='https://github.com/xmagee/alexmagee.com' target='_blank'>Source</a></strong>
+			<strong>Last publish: July 13th, 2021 | <a href={site_source_repo_link} target='_blank'>Source</a></strong>
 			<div>
 				<span>Built with:</span>
 				{site_info_stuff_used.map((i, index) => (

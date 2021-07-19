@@ -1,4 +1,4 @@
-import { site_info_stuff_used, nav_links, ee1 } from './links'
+import { site_info_stuff_used, nav_links, ee1, site_source_repo_link } from './links'
 import { bio } from './site_bio'
 
 var employment_experience = require('./employment_experience.json'),
@@ -8,6 +8,7 @@ var employment_experience = require('./employment_experience.json'),
 export { 
     site_info_stuff_used, 
     nav_links, ee1, bio, 
+    site_source_repo_link,
     employment_experience, 
     formal_education, 
     current_tech_specs
