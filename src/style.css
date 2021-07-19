@@ -46,7 +46,8 @@ header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */
 header button {
 	
 	float: right;
-	margin: -15px 10px 0px 0px;
+	margin-top: -15px;
+	margin-right: 10px;
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -67,7 +68,9 @@ header button:focus {
 }
 
 header button svg {
-	margin: 3px 0px -5px 5px;
+	margin-top: 3px;
+	margin-bottom: -5px;
+	margin-left: 5px;
 }
 
 @keyframes gradient {
@@ -87,7 +90,8 @@ h1, h2, h3 {
 }
 
 nav {
-	margin: -15px 0px 15px 0px;
+	margin-top: -15px;
+	margin-bottom: 15px;
 	width: 100%;
 	text-align: center;
 }
@@ -114,7 +118,8 @@ a:hover {
   }
   
 .print_nav {
-	margin: -15px 0px 15px 0px;
+	margin-top: -15px;
+	margin-bottom: 15px;
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
