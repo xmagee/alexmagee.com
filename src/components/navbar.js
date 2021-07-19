@@ -2,7 +2,7 @@ import { nav_links } from '../data'
 
 export default function Navbar() {
     return (
-        <nav className='links_container'>
+        <nav>
             {nav_links.map((i, index) => ( 
                 <span key={index}>
                     <a href={i[1]} target='_blank' rel='noopener'>{i[0]}</a>

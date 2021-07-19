@@ -35,11 +35,12 @@
 	padding: 0;
 }
 
-.site_header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */ 
-	background: linear-gradient(-45deg, #21295C, #065A82, #1C7293, #9EB3C2); 
-	background-size: 350% 350%;
+header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */ 
+	background: linear-gradient(-45deg, #21295C, #065A82, #1C7293); 
+	background-size: 500% 500%;
 	animation: gradient 10s ease infinite;
 	background-color: #000000;
+	color: #ffffff;
 }
 
 @keyframes gradient {
@@ -54,7 +55,7 @@
 	}
 }
 
-.links_container {
+nav {
 	margin: -15px 0px 15px 0px;
 	width: 100%;
 	text-align: center;
@@ -66,4 +67,9 @@ ul {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
 }
