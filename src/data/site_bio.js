@@ -1,0 +1,1 @@
+export const bio = 'Hi! 👋 I am currently self-employed as a contract-based software developer, looking for employment; Salary preferred. My most used languages in production environments are Javascript, C#/VB.NET/ASP.NET, Sql, and en_US.  Check out my Github to see my current and past projects, some of them are kinda cool :)'

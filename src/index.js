@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import './style'
 import { site_info_stuff_used, nav_links, ee1 } from './data/links'
+import { bio } from './data/site_bio'
 
 var employment_experience = require('./data/employment_experience.json'),
 	formal_education = require('./data/formal_education.json'), 
@@ -8,6 +9,7 @@ var employment_experience = require('./data/employment_experience.json'),
 
 export default function App() {
 	useEffect(() => {
+		console.clear()
 		console.log(ee1)
 	})
 
@@ -24,11 +26,7 @@ export default function App() {
 				))}
 			</nav>
 
-			<p>
-				Hi! 👋 I am currently self-employed as a contract-based software developer, open for employment. My 
-				most used languages in production environments are Javascript (ReactJS, NodeJS), C#/VB.NET/ASP.NET, Sql (MSSQL, MySql, 
-				Sqlite), and en_US.
-			</p>
+			<p>{bio}</p>
 
 			<h2>Employment Experience 💼</h2>
 			<ul>
