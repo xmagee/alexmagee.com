@@ -9,7 +9,7 @@ export default function Employment() {
 					<li key={index}>
 						<h3>{job.title}</h3>
 						<strong>{job.employer} [ 📅 {job.start_date} - {job.end_date} ]</strong>
-						<p>{job.descr}</p>
+						<p>{job.descr}</p><wbr />
 					</li>
 				))}
 			</ul>

@@ -1,7 +1,7 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import './style'
 import { ee1, bio } from './data'
-import { Employment, Education, Specs, SiteInfo, Navbar } from './components'
+import { Employment, Education, Specs, SiteInfo, Navbar, Header } from './components'
 
 export default function App() {
 	useEffect(() => {
@@ -9,25 +9,32 @@ export default function App() {
 		console.log(ee1)
 	})
 
+	const pdf_resume_reference = useRef()
+
 	return (
 		<main id='preact-root'>
-			<header className='site_header'>
-				<h1>Alex Magee</h1> 
-				<p>Software Developer</p>
-			</header>
-			
+			<Header prr={pdf_resume_reference} />
+
 			<Navbar />
 
-			<p>{bio}</p>
-			
-			<Employment />
-			
-			<Education />
-			
-			<Specs />
-					
+			<div ref={pdf_resume_reference}>
+				<div className='print_nav print_only'>
+					Alex Magee | alex@magee.us | github.com/xmagee
+				</div>
+
+				<p>{bio}</p>
+
+				<Employment />
+
+				<Education />
+
+				<p className='print_msg print_only'>This PDF was automatically generated from alexmagee.com.</p>
+			</div>
+
+			<Specs />	
+
 			<hr />
-			
+
 			<SiteInfo />
 		</main>
 	)

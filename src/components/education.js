@@ -9,7 +9,7 @@ export default function Education() {
 					<li key={index}>
 						<h3>{edu.name}</h3>
 						<strong>[ 📅 {edu.start_date} - {edu.end_date} ]</strong>
-						<p>{edu.descr}</p>
+						<p>{edu.descr}</p><wbr />
 					</li>
 				))}
 			</ul>
