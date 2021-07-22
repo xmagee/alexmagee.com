@@ -1,7 +1,7 @@
 export const nav_links = [
     ['Github', 'https://github.com/xmagee'], 
     ['Quora', 'https://www.quora.com/profile/Alex-Magee-33'], 
-    ['Stack Overflow', 'https://stackoverflow.com/users/16427991/alex-magee?tab=profile'],
+    ['Slack', 'https://join.slack.com/t/alex-magee/shared_invite/zt-tbgqgfnp-qWMsNJBnKNa24jxOiI2T6g'],
     ['Discord', 'https://discord.gg/M4B3R6M6YW'],
     ['Email', 'mailto:alex@magee.us']
 ]
