@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import './style'
 import { 
 	Employment, 
@@ -12,11 +12,6 @@ import {
 export default function App() {
 	const pdf_resume_reference = useRef(), 
 		data = require('./data.json')
-
-	useEffect(() => {
-		console.clear()
-		console.log(data.ee1)
-	})
 
 	return (
 		<main id='preact-root'>

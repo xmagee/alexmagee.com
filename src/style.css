@@ -44,7 +44,6 @@ header { /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */
 }
 
 header button {
-	
 	float: right;
 	margin-top: -15px;
 	margin-right: 10px;
@@ -111,11 +110,11 @@ a:hover {
 
 @media print {
 	html, body {
-	  height: initial !important;
-	  overflow: initial !important;
-	  -webkit-print-color-adjust: exact;
+		height: initial !important;
+		overflow: initial !important;
+		-webkit-print-color-adjust: exact;
 	}
-  }
+}
   
 .print_nav {
 	margin-top: -15px;
