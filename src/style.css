@@ -140,6 +140,6 @@ a:hover {
 }
   
 @page {
-size: auto;
-margin: 20mm;
+	size: auto;
+	margin: 20mm;
 }

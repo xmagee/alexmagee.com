@@ -1,0 +1,47 @@
+{
+    "domain_name": "example.com", 
+    "publish_date": "January 1st 1970",
+    "resume_name": "John Smith", 
+    "resume_job_title": "Software Developer",
+    "nav_links": [
+        ["Github", "https://github.com"], 
+        ["Quora", "https://www.quora.com"], 
+        ["Slack", "https://join.slack.com"],
+        ["Discord", "https://discord.gg"],
+        ["Email", "mailto:email@domain.com"]
+    ], 
+    "pdf_links": "John Smith | email@domain.com | github.com/example",
+    "ee1": "bm8sIHlvdSBjYW50IHNlZSB3aGF0cyBpbiBoZXJlIDpeKSAtPiBZWEpsSUhsdmRTQnpkWEpsUHlCcElHUnZiblFnZEdocGJtc2dlVzkxSUhkaGJuUWdkRzhnYzJWbElIUm9hWE11TGk0Z0xUNGdaVmM1TVVsSFJubGFWelV3U1Vka2RtRlhOVzVKU0ZKMlNVZGtjR1J0Vldka1dFRm5XVmhLYkVsSWJIWmtVMEUyVEhsQmRGQnBRbWxOYms1dVYyMHhjMlJXY0ZSa01tUm9VakZhTlZkc1RrTmpSMUpFVVc1Q2FtVnRPVzVaVldoVFRVZE9TVlJVV2sxbFZHdDZXa1JPYW1SWFZsaFBWRVpyVTBaYWNGZHNUVEZoYlVsNVRVaGFhMDFyV1hkWFZFcHVUREpTY1UxWGRGWlhSMDEzV2tod2MxZEdiM2hoUjNCV1ZWYzRPVU5uUFQwSwo=", 
+    "site_source_repo_link": "https://github.com/xmagee/alexmagee.com", 
+    "site_bio": "Proident eiusmod cillum non et dolore consequat ullamco. In nulla sit proident commodo sit id dolore fugiat tempor. Id est magna in consectetur consequat nulla cillum anim proident irure. Tempor esse adipisicing id consequat ad elit ea voluptate voluptate exercitation.",
+    "formal_education": [
+        {
+            "name": "University of Example", 
+            "start_date": "September 2016", 
+            "end_date": "April 2020", 
+            "descr": "B.S. in Computer Science"
+        },
+        {
+            "name": "Example H.S.", 
+            "start_date": "September 2012", 
+            "end_date": "June 2016", 
+            "descr": "High School Diploma"
+        }
+    ], 
+    "employment_experience": [
+        {
+            "title": "Software Developer I", 
+            "employer": "Example Company, LLC",
+            "start_date": "May 2020", 
+            "end_date": "Present",  
+            "descr": "Developed the best software, copy-pasted from Stack Overflow often."
+        }, 
+        {
+            "title": "Software Developer Intern", 
+            "employer": "Example Company, LLC",
+            "start_date": "May 2019", 
+            "end_date": "April 2020", 
+            "descr": "Developed the best software."
+        }
+    ]
+}

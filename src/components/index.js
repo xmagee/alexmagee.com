@@ -1,8 +1,8 @@
 import Employment from './employment'
 import Education from './education'
-import Specs from './specs'
-import SiteInfo from './siteinfo'
 import Navbar from './navbar'
 import Header from './header'
+import Bio from './bio'
+import PrintNav from './printnav'
 
-export { Employment, Education, Specs, SiteInfo, Navbar, Header }
+export { Bio, PrintNav, Employment, Education, Navbar, Header }

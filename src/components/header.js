@@ -1,11 +1,12 @@
 import Description from '@material-ui/icons/Description'
 import ReactToPrint from 'react-to-print'
+const data = require('../data.json')
 
 export default function Header(props) {
     return (
         <header>
-            <h1>Alex Magee</h1> 
-            <p>Software Developer</p>
+            <h1>{data.resume_name}</h1> 
+            <p>{data.resume_job_title}</p>
             <ReactToPrint 
                 content={() => props.prr.current}
                 trigger={() => {
