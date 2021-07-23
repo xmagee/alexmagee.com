@@ -16,8 +16,8 @@ My personal website / resume page
 ## use this as your own resume site 
 * `$ git clone https://github.com/xmagee/alexmagee.com.git`
 * `$ cd alexmagee.com && npm install`
-* make file `data.json`, use the file named `example.data.json` as a template: 
+* make file `data.json`, use the file named [example.data.json](https://github.com/xmagee/alexmagee.com/blob/main/src/example.data.json) as a template: 
    - `$ cat example.data.json >> data.json`
-* replace info in `template.html` with your own
+* replace info in [template.html](https://github.com/xmagee/alexmagee.com/blob/main/src/template.html) with your own
 * `$ npm run build`
 * all good, now host the site that was built in `/build` somewhere :)
