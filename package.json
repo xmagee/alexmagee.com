@@ -1,8 +1,5 @@
 {
-  "private": true,
   "name": "alexmagee.com",
-  "version": "1.0.0",
-  "license": "",
   "scripts": {
     "build": "preact build",
     "serve": "sirv build --port 8080 --cors --single",
