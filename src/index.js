@@ -43,7 +43,7 @@ export default function App() {
 				</div>
 				
 				<p>{data.site_bio}</p>
-				
+
 				<h2>Employment Experience 💼</h2>
 				<ul>
 					{data.employment_experience.map((job, index) => (
@@ -75,7 +75,7 @@ export default function App() {
 							<p>
 								{work.descr}
 							</p>
-							visit: <a href={work.url}>{work.url_text}</a> <span className='print_only'>{work.url}</span>
+							visit: <a href={work.url} target='_blank'>{work.url_text}</a> <span className='print_only'>{work.url}</span>
 							<wbr />
 						</li>
 					))}
