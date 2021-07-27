@@ -66,6 +66,21 @@ export default function App() {
 					))}
 				</ul>
 
+				<h2>Showcase 💻</h2>
+				<ul>
+					{data.public_work.map((work, index) => (
+						<li key={index}>
+							<h3>{work.title}</h3>
+							<strong>[ 📅 {work.start_date} - {work.end_date} ]</strong>
+							<p>
+								{work.descr}
+							</p>
+							visit: <a href={work.url}>{work.url_text}</a> <span className='print_only'>{work.url}</span>
+							<wbr />
+						</li>
+					))}
+				</ul>
+
 				<p className='print_msg print_only'>This PDF was automatically generated from {data.domain_name}.</p>
 			</div>
 		</main>

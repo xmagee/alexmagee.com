@@ -43,5 +43,23 @@
             "end_date": "April 2020", 
             "descr": "Developed the best software."
         }
+    ], 
+    "public_work": [
+        {
+            "title": "Example, INC Ecommerce Website", 
+            "start_date": "December 2015", 
+            "end_date": "February 2018", 
+            "descr": "Implemented new technologies, setup web hosting.",
+            "url": "https://alexmagee.com", 
+            "url_text": "Example, INC"
+        },
+        {
+            "title": "RobCo Website", 
+            "start_date": "January 2021", 
+            "end_date": "August 2077", 
+            "descr": "Website re-design.",
+            "url": "https://alexmagee.com", 
+            "url_text": "RobCo"
+        }
     ]
 }
